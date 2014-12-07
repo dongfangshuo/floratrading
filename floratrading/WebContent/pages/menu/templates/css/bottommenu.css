@@ -1,0 +1,23 @@
+/*=========½Å×¢²Ëµ¥===========*/
+div#bottommenu{
+margin: 0;
+padding:0;
+border: 0;
+height: 28px;
+color:#fff;
+font:12px/28px Verdana,microsoft yahei,Arial;
+text-align:center;
+}
+
+
+div#bottommenu a:link,div#bottommenu a:visited,div#bottommenu a:active{
+margin:0px 10px 0px 5px;
+color:#fff;
+font:12px/28px Verdana,microsoft yahei,Arial;
+text-decoration: none;
+}
+
+div#bottommenu a:hover{
+color:#ff6600;
+text-decoration: underline;
+}
