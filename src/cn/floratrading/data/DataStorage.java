@@ -4,7 +4,9 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import cn.floratrading.entity.JobEntity;
 import cn.floratrading.entity.NewsEntity;
+import cn.floratrading.entity.ProductEntity;
 
 public final class DataStorage {
 	
@@ -17,6 +19,44 @@ public final class DataStorage {
 		NewsEntity news5 = new NewsEntity(5,"网站上线5",new Date(),"5最新网站上线了!!!");
 		NewsEntity[] news = new NewsEntity[]{news1,news2,news3,news4,news5};
 		for(NewsEntity n : news){
+			map.put(n.getId(), n);
+		}
+		return map;
+	}
+	
+	public static Map<Integer,ProductEntity> getProds(){
+		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
+		ProductEntity prod1 = new ProductEntity(1,"1352882687.jpg","产品1","居家杀人必备之良品");
+		ProductEntity prod2 = new ProductEntity(2,"1352882901.jpg","产品2","居家杀人必备之良品");
+		ProductEntity prod3 = new ProductEntity(3,"1352882878.jpg","产品3","居家杀人必备之良品");
+		ProductEntity prod4 = new ProductEntity(4,"1352882835.jpg","产品4","居家杀人必备之良品");
+		ProductEntity prod5 = new ProductEntity(5,"1352882835.jpg","产品5","居家杀人必备之良品");
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
+		for(ProductEntity n : prods){
+			map.put(n.getId(), n);
+		}
+		return map;
+	}
+	
+	public static Map<Integer,ProductEntity> getFactories(){
+		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
+		ProductEntity prod1 = new ProductEntity(1,"1273467523.jpg","factory产品1","居家杀人必备之良品");
+		ProductEntity prod2 = new ProductEntity(2,"1273467523.jpg","factory产品2","居家杀人必备之良品");
+		ProductEntity prod3 = new ProductEntity(3,"1273467523.jpg","factory产品3","居家杀人必备之良品");
+		ProductEntity prod4 = new ProductEntity(4,"1273467523.jpg","factory产品4","居家杀人必备之良品");
+		ProductEntity prod5 = new ProductEntity(5,"1273467523.jpg","factory产品5","居家杀人必备之良品");
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
+		for(ProductEntity n : prods){
+			map.put(n.getId(), n);
+		}
+		return map;
+	}
+	
+	public static Map<Integer,JobEntity> getJobs(){
+		Map<Integer,JobEntity>  map = new HashMap<Integer,JobEntity>();
+		JobEntity job = new JobEntity(1,"卖萌大师","full-time","More than 3 year",2,new Date(),"北京","College");
+		JobEntity[] prods = new JobEntity[]{job};
+		for(JobEntity n : prods){
 			map.put(n.getId(), n);
 		}
 		return map;

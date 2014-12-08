@@ -102,7 +102,7 @@ var PDV_PAGENAME='query';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU2MjU0fDYxOGY1NzQxNGExMDE4ZDQyNDM0MzkzZjI2NGZiYzQyfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

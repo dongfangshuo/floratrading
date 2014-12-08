@@ -61,7 +61,7 @@ var PDV_PAGENAME='html_service';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU3NDA3fGEyN2Q4YWIwMjI0ZDE2YTk0NWUxOGMwNjJjYjVhNDc4fA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

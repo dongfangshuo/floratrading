@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"  pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -25,7 +25,7 @@ var PDV_PAGENAME='query';
 
 <div id='contain' style='width:1002px;background:none transparent scroll repeat 0% 0%;margin:0px auto;padding:0px'>
 
-<jsp:include page="../../comm/header.jsp"></jsp:include>
+<jsp:include page="/pages/comm/header.jsp"></jsp:include>
 <div id='content' style='width:1002px;height:483px;background:url(../../effect/source/bg/cbg.png);margin:0px auto'>
 
 
@@ -38,9 +38,9 @@ var PDV_PAGENAME='query';
  
 <link href="../../product/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../../product/" >Products</a> 
+&gt; <a href="${ctx}/pages/product/class/index.jsp" >Products</a> 
 
 </div>
 
@@ -65,43 +65,16 @@ var PDV_PAGENAME='query';
 <div style="padding:0px">
 
 <link href="../../product/templates/css/productquery.css" rel="stylesheet" type="text/css" />
- 
-<div id="productquery">
+<c:forEach items="${prods}" var="item">
+	<div id="productquery">
 	<div class="fang" style="width:155px;height:155px">
 		<div class="picFit" style="width:155px;height:155px">
-		<a href="../../product/html/?12.html" target="_self" ><img src="../../product/pics/20121114/1352882901.jpg" style="width:155px;height:155px" border="0" /></a>
+		<a href="${ctx}/pages/product/product.jsp?id=${item.key}" target="_self" ><img src="${ctx}/pages/base/images/prods/${item.value.img}" style="width:155px;height:155px" border="0" /></a>
 		</div>
 	</div>
-	<a href="../../product/html/?12.html" target="_self"   class="prodtitle">Product Name</a>
+	<a href="${ctx}/pages/product/product.jsp?id=${item.key}" target="_self"   class="prodtitle">${item.value.name}</a>
 </div>
- 
-<div id="productquery">
-	<div class="fang" style="width:155px;height:155px">
-		<div class="picFit" style="width:155px;height:155px">
-		<a href="../../product/html/?11.html" target="_self" ><img src="../../product/pics/20121114/1352882878.jpg" style="width:155px;height:155px" border="0" /></a>
-		</div>
-	</div>
-	<a href="../../product/html/?11.html" target="_self"   class="prodtitle">Product Name</a>
-</div>
- 
-<div id="productquery">
-	<div class="fang" style="width:155px;height:155px">
-		<div class="picFit" style="width:155px;height:155px">
-		<a href="../../product/html/?9.html" target="_self" ><img src="../../product/pics/20121114/1352882687.jpg" style="width:155px;height:155px" border="0" /></a>
-		</div>
-	</div>
-	<a href="../../product/html/?9.html" target="_self"   class="prodtitle">Product Name</a>
-</div>
- 
-<div id="productquery">
-	<div class="fang" style="width:155px;height:155px">
-		<div class="picFit" style="width:155px;height:155px">
-		<a href="../../product/html/?10.html" target="_self" ><img src="../../product/pics/20121114/1352882835.jpg" style="width:155px;height:155px" border="0" /></a>
-		</div>
-	</div>
-	<a href="../../product/html/?10.html" target="_self"   class="prodtitle">Product Name</a>
-</div>
-
+</c:forEach>
 <script>
 $(function() {
 $().picFit("exp");
@@ -133,7 +106,7 @@ $().picFit("exp");
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU2MjU0fDYxOGY1NzQxNGExMDE4ZDQyNDM0MzkzZjI2NGZiYzQyfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 
@@ -199,6 +172,6 @@ $().picFit("exp");
 </div>
 </div>
 </div>
-<jsp:include page="../../comm/footer.jsp"></jsp:include>
+<jsp:include page="/pages/comm/footer.jsp"></jsp:include>
 </body>
 </html>

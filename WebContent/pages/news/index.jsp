@@ -63,7 +63,7 @@ var PDV_PAGENAME='main';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU2MzA4fGZiY2U1NjZjNTllNTMxNmFjZWU5ZWUzNGM4MzI0NmQyfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

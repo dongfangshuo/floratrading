@@ -1,0 +1,25 @@
+
+div.class_en{
+margin:0px;
+padding:15px 15px 25px 15px;
+}
+
+
+a.class_en:link,a.class_en:visited,a.class_en:active{
+display:block;
+text-decoration: none;
+font:12px/28px Verdana,microsoft yahei,Arial, Helvetica, sans-serif;
+height:30px;
+text-align:left;
+background:url(../images/class.png) 0px 0px no-repeat;
+padding-left:18px;
+margin:0px;
+color:#ffffff;
+}
+
+a.class_en:hover{
+display:block;
+color:#ffffff; 
+background:url(../images/classnow.png) 0px 0px no-repeat;
+text-decoration: none;
+}

@@ -60,7 +60,7 @@ var PDV_PAGENAME='html_cert';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU3NDA2fDM0NzlmMzhkYmM5ZDQ1MGI2NmEzZTVjMTNlMWNlOWI3fA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

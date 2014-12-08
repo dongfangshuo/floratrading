@@ -27,6 +27,9 @@ public class CommonFilter implements Filter {
 		String path = req.getContextPath();
 		req.setAttribute("ctx", path);
 		req.setAttribute("news", DataStorage.getNews());
+		req.setAttribute("prods", DataStorage.getProds());
+		req.setAttribute("factories", DataStorage.getFactories());
+		req.setAttribute("jobs", DataStorage.getJobs());
 		arg2.doFilter(arg0, arg1);
 	}
 

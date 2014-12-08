@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -63,7 +63,7 @@ var PDV_PAGENAME='main';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU2MjcxfGNiZDE2ZjM5YmYwMWNjZGQ2MzhlMDU2NzcxZjliZTVhfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 
@@ -118,18 +118,14 @@ var PDV_PAGENAME='main';
 	</li>
 </ul>
 <ul class="queryul">
- 
-<li>
-	
-	<div class="bt"><a href="../job/html/?6.html" target="_self" >Electronics Engineers</a></div>
-	<div class="cl"><a href="../job/html/?6.html" target="_self" >More</a></div>
-	<div class="au">2</div>
-	<div class="bk">Jiaxing</div>
-	
-
-
-</li>
-
+<c:forEach items="${jobs}" var="item">
+		<li>
+			<div class="bt"><a href="${ctx}/pages/job/job.jsp?id=${item.key}" target="_self" >${item.value.name}</a></div>
+			<div class="cl"><a href="${ctx}/pages/job/job.jsp?id=${item.key}" target="_self" >More</a></div>
+			<div class="au">${item.value.num}</div>
+			<div class="bk">${item.value.workplace}</div>
+		</li>
+	</c:forEach>
 </ul>
 </div>
 

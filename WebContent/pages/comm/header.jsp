@@ -135,7 +135,7 @@
 
 </li>
 
-<li><a href="${ctx}/pages/page/html/equipment.jsp">EQUIPMENT</a>
+<li><a href="${ctx}/pages/page/html/equipment.jsp">FACTORY</a>
 
 </li>
 
@@ -180,7 +180,7 @@
 <script language="javascript" src="${ctx}/pages/search/js/searchform.js"></script>
 
 <div class="globalsearchformzone">
-<form id="globalsearchform" method="get" action="${ctx}/pages/search/index.jsp">
+<form id="globalsearchform" method="get" action="##">
    	<div class="globalsearchform">
     	<input name="key" type="text" id="globalsearchform_key" value="" class="input" />
   	</div>

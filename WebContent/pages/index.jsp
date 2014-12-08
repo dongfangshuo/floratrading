@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -43,8 +44,7 @@ var PDV_PAGENAME='index';
 <div style="padding:0px">
 <a href="page/company/" style="font:24px/32px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">COMPANY PROFILE</a>
 <div style="margin-top:10px;font:12px/20px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">
-Hangzhou Agricultural Products Co.,Ltd. is proud to offer Chinese truffle,boletus edulis and other agricultural products.It is widely regarded as one of the major suppliers of wild mushrooms in China.customer driven focus and commitment to total quality in everything it does.A strict quality control traceability system is applied from mushrooms harvesting, processing, packing to shipping. Workers are fully trained...
-</div>
+Since its establishment, Beijing Flora Trading Co., Ltd. has been engaged in providing import & export as well as global sourcing service for worldwide customers. Import & Export Service:With its integrated logistics chain, Flora Trading can offer customers with tailor-made import and export service. It imports kinds of commodities globally for Chinese customers and now the imports mainly include plants, automobile and auto parts, steel pipes and rubber. It exports building paint, integrated paint manufacturing equipment, building stones, oil well equipment, automatic welding machinery and clothes. The service region covers Netherlands, Germany, the USA, South Korea, South America, Indonesia, Thailand, Iran and Syria.Sourcing Service：Flora Trading provides sourcing service for customers worldwide. It helps in giving access to best quality resources available locally and provides cheaper, easier and safer service.Its reliable network reaches out to the best suppliers in China and the in-house team will use their experience and expertise to ensure that you make the best use of purchasing from China opportunities, mitigate associated risks, minimize expenses and secure transactions for a reliable supply chain in China.</div>
 
 </div>
 </div>
@@ -75,35 +75,16 @@ Hangzhou Agricultural Products Co.,Ltd. is proud to offer Chinese truffle,boletu
 			<div class="LeftButton" id="LeftArr1"></div>
 			<div class="Cont" id="ISL_Cont_11" style="overflow:hidden;">
 
-					<div class="box">
-						<div class="fang" style="width:150px;height:150px">
-							<div class="picFit" style="width:150px;height:150px">
-							<a href="product/html/?12.html" target="_self"><img height="150px" src="product/pics/20121114/1352882901.jpg" width="150px" border="0"></a>
+					<c:forEach items="${prods}" var="item">
+						<div class="box">
+							<div class="fang" style="width:150px;height:150px">
+								<div class="picFit" style="width:150px;height:150px">
+								<a href="${ctx}/pages/product/product.jsp?id=${item.key}" target="_self"><img height="150px" src="${ctx}/pages/base/images/prods/${item.value.img}" width="150px" border="0"/></a>
+								</div>
 							</div>
+							<div class="prodtitle"><a href="${ctx}/pages/product/product.jsp?id=${item.key}" target="_self" class="prodtitle">${item.value.name}</a></div>
 						</div>
-						<div class="prodtitle"><a href="product/html/?12.html" target="_self" class="prodtitle">Product Name</a></div>
-					</div>
-					
-
-					<div class="box">
-						<div class="fang" style="width:150px;height:150px">
-							<div class="picFit" style="width:150px;height:150px">
-							<a href="product/html/?11.html" target="_self"><img height="150px" src="product/pics/20121114/1352882878.jpg" width="150px" border="0"></a>
-							</div>
-						</div>
-						<div class="prodtitle"><a href="product/html/?11.html" target="_self" class="prodtitle">Product Name</a></div>
-					</div>
-					
-
-					<div class="box">
-						<div class="fang" style="width:150px;height:150px">
-							<div class="picFit" style="width:150px;height:150px">
-							<a href="product/html/?10.html" target="_self"><img height="150px" src="product/pics/20121114/1352882835.jpg" width="150px" border="0"></a>
-							</div>
-						</div>
-						<div class="prodtitle"><a href="product/html/?10.html" target="_self" class="prodtitle">Product Name</a></div>
-					</div>
-					
+					</c:forEach>
 
 			</div>
 			<div class="RightButton" id="RightArr1"></div>

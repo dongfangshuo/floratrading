@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -60,7 +60,7 @@ var PDV_PAGENAME='html_equipment';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.html?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE3OTU3MzkwfGI2NzhlODRjZjlhNWMxMTgzY2QxNTI3ZmRiN2ZjZTk3fA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 
@@ -104,42 +104,16 @@ var PDV_PAGENAME='html_equipment';
 <link href="../../photo/templates/css/photoquery.css" rel="stylesheet" type="text/css" />
 <div id="photoquery">
 <ul >
- 
-<li>
+ <c:forEach items="${factories}" var="item">
+ 	<li>
 	<div class="fang" style="width:160px;height:120px">
 		<div class="picFit" style="width:160px;height:120px">
-		<a href="photo/html/?10.html" target="_self" ><img src="../../photo/pics/20100510/1273467523.jpg" style="width:160px;height:120px" border="0" /></a>
+		<a href="${ctx}/pages/photo/photo.jsp?id=${item.key}" target="_self" ><img src="${ctx}/pages/base/images/factory/${item.value.img}" style="width:160px;height:120px" border="0" /></a>
 		</div>
 	</div>
-	<div class="title"><a href="photo/html/?10.html" target="_self"   >Equipment</a></div>
+	<div class="title"><a href="${ctx}/pages/photo/photo.jsp?id=${item.key}" target="_self"   >${item.value.name }</a></div>
 </li>
- 
-<li>
-	<div class="fang" style="width:160px;height:120px">
-		<div class="picFit" style="width:160px;height:120px">
-		<a href="photo/html/?9.html" target="_self" ><img src="../../photo/pics/20100510/1273467542.jpg" style="width:160px;height:120px" border="0" /></a>
-		</div>
-	</div>
-	<div class="title"><a href="photo/html/?9.html" target="_self"   >Equipment</a></div>
-</li>
- 
-<li>
-	<div class="fang" style="width:160px;height:120px">
-		<div class="picFit" style="width:160px;height:120px">
-		<a href="photo/html/?8.html" target="_self" ><img src="../../photo/pics/20100510/1273467567.jpg" style="width:160px;height:120px" border="0" /></a>
-		</div>
-	</div>
-	<div class="title"><a href="photo/html/?8.html" target="_self"   >Equipment</a></div>
-</li>
- 
-<li>
-	<div class="fang" style="width:160px;height:120px">
-		<div class="picFit" style="width:160px;height:120px">
-		<a href="photo/html/?7.html" target="_self" ><img src="../../photo/pics/20100510/1273467559.jpg" style="width:160px;height:120px" border="0" /></a>
-		</div>
-	</div>
-	<div class="title"><a href="photo/html/?7.html" target="_self"   >Equipment</a></div>
-</li>
+ </c:forEach>
 
 </ul>
 <script>
