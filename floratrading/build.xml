@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="floratrading" basedir="." default="package">
+  
+ <property name="source" location="src" />
+ <property name="dest" location="dest" />
+ <property name="webroot" location="WebContent"/>
+ <property environment="SystemVariable" /> 
+ <property name="java.home" value="${SystemVariable.JAVA_HOME}"/>
+ <property name="path" value="${SystemVariable.PATH}"/>
+ <property name="classpath" value="${SystemVariable.CLASSPATH}"/>
+ <property name="tomcat_home" value="F:\software_baks\apache-tomcat-7.0.47"/>
+	
+	
+ 
+
+	
+ <target name="clean" >
+  <echo message="清理生成过程中的临时文件" />
+  <delete dir="${webroot}/WEB-INF/classes" />
+  <delete dir="${dest}" />
+ </target>
+  
+ <target name="prepare" depends="clean">
+  <mkdir dir="${webroot}/WEB-INF/classes"/>
+  <mkdir dir="${dest}" />
+ </target>
+  
+ <target name="build" depends="prepare">
+  <echo message="编译Java源代码"/>
+  <echo message="JAVA_HOME=${java.home}"/>
+  <echo message="PATH=${path}"/>
+  <echo message="CLASSPATH=${classpath}"/>
+   <echo message="tomcat_home=${tomcat_home}"/>
+  <javac destdir="${webroot}/WEB-INF/classes" srcdir="${source}" debug="on" includeantruntime="on" deprecation="on" encoding="UTF-8" source="1.6" target="1.6">
+  	<compilerarg value="-Xlint:unchecked"/>
+   <classpath>
+    <fileset dir="${webroot}/WEB-INF/lib">
+     <include name="**/*.jar"/>
+    </fileset>
+    <fileset dir="${tomcat_home}/lib">
+        <include name="**/*.jar"/>
+       </fileset>
+   </classpath>
+  </javac>
+ </target>
+  
+ <target name="package" depends="build">
+  <echo message="将Web工程打包成war可部署文件格式" />
+  <war destfile="${dest}/floratrading.war"  basedir="${webroot}" webxml="${webroot}/WEB-INF/web.xml"/>
+ </target>
+</project>

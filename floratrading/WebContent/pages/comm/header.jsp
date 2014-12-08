@@ -43,13 +43,13 @@
 	</div>
 <div style="padding:0px">
 
-	<link rel="stylesheet" href="http://api.8555.net/css.jsp?YWFhYWF8ODEyN3xhZHZzc2xpZGVzfDE0MTc5NTYyNjB8NzU3M2NjMzQ0Mjg4M2QwMWQ1ZDkzY2Q1NjM4ZjI5YTN8" />
-	<script type="text/javascript" src="http://api.8555.net/script.jsp?YWFhYWF8ODEyN3xhZHZzc2xpZGVzfDE0MTc5NTYyNjB8NzU3M2NjMzQ0Mjg4M2QwMWQ1ZDkzY2Q1NjM4ZjI5YTN8"></script>
+	<link rel="stylesheet" href="${ctx}/pages/base/css/css.css" />
+	<script type="text/javascript" src="${ctx}/pages/base/js/script.js"></script>
 	<script>
 		$(function(){
 			$('#s1_slides').slides({
 				preload: true,
-				preloadImage: '${ctx}/pages/advs/templates/images/s1-loading.gif',
+				preloadImage: '${ctx}/pages/base/images/s1-loading.gif',
 				play: 5000,
 				pause: 2500,
 				hoverPause: true
