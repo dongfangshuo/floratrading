@@ -41,7 +41,7 @@ var PDV_PAGENAME='html_equipment';
  
 <link href="../templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="">Home</a> &gt; Equipment
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; Equipment
 
 </div>
 

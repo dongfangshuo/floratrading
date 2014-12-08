@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -36,9 +38,9 @@ var PDV_PAGENAME='main';
  
 <link href="../down/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../down/" >Download</a> 
+&gt; <a href="${ctx}/pages/down/index.jsp" >Download</a> 
 
 </div>
 
@@ -96,12 +98,7 @@ var PDV_PAGENAME='main';
 
 <link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
-
-
-<a href="../down/class/?1.html" target="_self" class="class_en">Driver download</a>
-
-
-<a href="../down/class/?2.html" target="_self" class="class_en">File Download</a>
+<!-- <a href="../class/index.html?1.html" target="_self" class="class_en">Driver download</a> -->
  
 </div>
 
@@ -129,18 +126,12 @@ var PDV_PAGENAME='main';
 <link href="../down/templates/css/downquery.css" rel="stylesheet" type="text/css" />
 <div id="downquery">
 <ul >
- 
-<li>
-	<div class="title" ><a href="../down/html/?6.html" target="_self"   >File download try it</a></div>
-	<div class="time">2012-11-14 </div>
-
-</li>
- 
-<li>
-	<div class="title" ><a href="../down/html/?5.html" target="_self"   >Video download try it</a></div>
-	<div class="time">2012-11-14 </div>
-
-</li>
+<c:forEach items="${downloads}" var="item">
+	<li>
+		<div class="title" ><a href="${ctx}/pages/down/download.jsp?id=${item.key}" target="_self"   >${item.value.name}</a></div>
+		<div class="time"> <fmt:formatDate value="${item.value.published}" pattern="yyyy-MM-dd"/></div>
+	</li>
+</c:forEach>
 
 </ul>
 </div>

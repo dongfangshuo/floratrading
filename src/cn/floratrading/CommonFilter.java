@@ -31,6 +31,7 @@ public class CommonFilter implements Filter {
 		req.setAttribute("factories", DataStorage.getFactories());
 		req.setAttribute("jobs", DataStorage.getJobs());
 		req.setAttribute("crets", DataStorage.getCertificates());
+		req.setAttribute("downloads", DataStorage.getDownLoadFiles());
 		arg2.doFilter(arg0, arg1);
 	}
 

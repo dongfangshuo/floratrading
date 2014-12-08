@@ -38,9 +38,9 @@ var PDV_PAGENAME='main';
  
 <link href="../product/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../product/" >Products</a> 
+&gt; <a href="${ctx}/pages/product/class/index.jsp" >Products</a> 
 
 </div>
 

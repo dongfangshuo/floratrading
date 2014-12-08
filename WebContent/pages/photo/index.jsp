@@ -37,9 +37,9 @@ var PDV_PAGENAME='main';
  
 <link href="../photo/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../photo/" >Pictures</a> 
+&gt; Pictures
 
 </div>
 

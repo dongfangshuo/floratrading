@@ -38,7 +38,7 @@ var PDV_PAGENAME='html_culture';
  
 <link href="../templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="">Home</a> &gt; Corporate Culture
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; Corporate Culture
 
 </div>
 

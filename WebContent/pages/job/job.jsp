@@ -43,9 +43,9 @@ var PDV_PAGENAME='detail';
  
 <link href="templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="${ctx}/pages/index.html">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../index.html" >Recruitment</a> 
+&gt; <a href="${ctx}/pages/job/index.jsp" >Recruitment</a> 
  
 &gt; ${job.name}
 

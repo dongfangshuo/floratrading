@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import cn.floratrading.entity.DownLoadEntity;
 import cn.floratrading.entity.JobEntity;
 import cn.floratrading.entity.NewsEntity;
 import cn.floratrading.entity.ProductEntity;
@@ -74,5 +75,16 @@ public final class DataStorage {
 			map.put(n.getId(), n);
 		}
 		return map;
+	}
+	
+	public static Map<Integer,DownLoadEntity> getDownLoadFiles(){
+		Map<Integer,DownLoadEntity>  map = new HashMap<Integer,DownLoadEntity>();
+		DownLoadEntity dl = new DownLoadEntity(1,"公司新规定下载","政策",234,new Date(),new Date(),"这个政策好","##");
+		DownLoadEntity[] prods = new DownLoadEntity[]{dl};
+		for(DownLoadEntity n : prods){
+			map.put(n.getId(), n);
+		}
+		return map;
+		
 	}
 }

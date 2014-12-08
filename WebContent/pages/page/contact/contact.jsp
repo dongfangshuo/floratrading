@@ -38,7 +38,7 @@ var PDV_PAGENAME='contact_contact';
  
 <link href="../../page/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../../">Home</a> &gt; Contact Us
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; Contact Us
 
 </div>
 

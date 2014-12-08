@@ -77,9 +77,9 @@ var PDV_PAGENAME='query';
  
 <link href="../../news/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../../news/" >News</a> 
+&gt; <a href="${ctx}/pages/news/class/index.jsp" >News</a> 
 
 </div>
 

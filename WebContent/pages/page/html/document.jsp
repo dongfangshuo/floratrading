@@ -55,7 +55,7 @@ var PDV_PAGENAME='html_company';
  
 <link href="../templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="">Home</a> &gt; ${location}
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; ${location}
 
 </div>
 

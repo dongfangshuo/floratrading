@@ -37,7 +37,7 @@ var PDV_PAGENAME='html_cert';
  
 <link href="../templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="">Home</a> &gt; Certificate
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; Certificate
 
 </div>
 

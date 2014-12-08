@@ -38,9 +38,9 @@ var PDV_PAGENAME='main';
  
 <link href="../job/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../job/" >Recruitment</a> 
+&gt; <a href="${ctx}/pages/job/index.jsp" >Recruitment</a> 
 
 </div>
 

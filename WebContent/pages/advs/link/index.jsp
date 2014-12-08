@@ -125,7 +125,7 @@ var PDV_PAGENAME='link';
  
 <link href="../../advs/templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="../../">Home</a> &gt; <a href="../../advs/link/" >Links</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> &gt; <a href="${ctx}/pages/advs/link/index.jsp" >Links</a> 
 
 </div>
 

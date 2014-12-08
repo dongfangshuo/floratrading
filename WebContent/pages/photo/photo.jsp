@@ -48,11 +48,10 @@ var projectPath = '${ctx}';
  
 <link href="templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="${ctx}/pages/index.html">Home</a> 
+<a href="${ctx}/pages/index.jsp">Home</a> 
  
-&gt; <a href="../index.html" >Pictures</a> 
+&gt; Pictures
  
-&gt; Equipment
 
 </div>
 
