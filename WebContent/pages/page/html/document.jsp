@@ -1,5 +1,22 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" 
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+	String type = request.getParameter("type");
+	String location = "";
+	String contents = "";
+	if(null != type){
+		if(type.trim().equalsIgnoreCase("culture")){
+			location = "Corporate Culture";
+			contents = "HangZhou Some Electronics Co., Ltd. specializes in R&D, production and sales of precision connectors. Its products are used in computers, telecom network equipments, industrial apparatuses, ect. The Company is armed with advanced precision mold manufacturing equipment, high-speed hardware pressing equipment, precision plastic injection equipment, automatic assembly line and inspection/testing devices.The company adheres to the business principle of \"technology for development and quality for existence\", and provides customers with quality products and considerate service based on its years of experience in R&D, procuction and management, great technical strength and the mature quality management system.";
+		}else if(type.trim().equalsIgnoreCase("service")){
+			location = "Service";
+			contents = "Our new and old customers to provide the best service of pre-and post-sales technical support services for the new and old customers, we provide the best pre-service and post-sales technical support services";
+		}
+	}else{
+		
+	}
+	request.setAttribute("location", location);
+	request.setAttribute("contents", contents);
+%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -38,7 +55,7 @@ var PDV_PAGENAME='html_company';
  
 <link href="../templates/css/nav.css" rel="stylesheet" type="text/css" />
 <div id="nav">
-<a href="">Home</a> &gt; About Us
+<a href="">Home</a> &gt; ${location}
 
 </div>
 
@@ -64,9 +81,7 @@ var PDV_PAGENAME='html_company';
 <link href="../templates/css/pagecontent.css" rel="stylesheet" type="text/css" />
 <div id='pagecontent' class='page_content'>
 <p>
-<img style="PADDING-RIGHT: 15px; FLOAT: left" border=0 alt="" src="../pics/20121216/201212161355651563686.jpg" />
-HangZhou Some Electronics Co., Ltd. specializes in R&amp;D, production and sales of precision connectors. Its products are used in computers, telecom network equipments, industrial apparatuses, ect. The Company is armed with advanced precision mold manufacturing equipment, high-speed hardware pressing equipment, precision plastic injection equipment, automatic assembly line and inspection/testing devices.The company adheres to the business principle of "technology for development and quality for existence", and provides customers with quality products and considerate service based on its years of experience in R&amp;D, procuction and management, great technical strength and the mature quality management system.</p>
-<p>HangZhou Some Electronics Co., Ltd. specializes in R&amp;D, production and sales of precision connectors. Its products are used in computers, telecom network equipments, industrial apparatuses, ect. The Company is armed with advanced precision mold manufacturing equipment, high-speed hardware pressing equipment, precision plastic injection equipment, automatic assembly line and inspection/testing devices.The company adheres to the business principle of "technology for development and quality for existence", and provides customers with quality products and considerate service based on its years of experience in R&amp;D, procuction and management, great technical strength and the mature quality management system.<br /><br />
+	${contents}
 </p>
 </div>
 <script>

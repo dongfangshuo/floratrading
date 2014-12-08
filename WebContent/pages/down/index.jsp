@@ -62,7 +62,7 @@ var PDV_PAGENAME='main';
 <div style="margin:0px;padding:5px;">
 <link href="../down/templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
 <div class="searchform_h">
-<form id="searchform" method="get" action="../down/class/index.html">
+<form id="searchform" method="get" action="##">
  
   
   

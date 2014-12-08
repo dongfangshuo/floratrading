@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:if test="${param.type eq 'cret'}">
+	<c:set var="factories" value="${crets}"/>
+	<c:set var="flag" value="cret"/>
+</c:if>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -63,20 +67,8 @@ var PDV_PAGENAME='html_equipment';
 <link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
-
-<a href="company.html" target="_self" class="class_en">About Us</a>
-
-
-<a href="culture.html" target="_self" class="class_en">Corporate Culture</a>
-
-
-<a href="equipment.html" target="_self" class="class_en">Equipment</a>
-
-
-<a href="cert.html" target="_self" class="class_en">Certificate</a>
-
-
-<a href="service.html" target="_self" class="class_en">Service</a>
+<jsp:include page="/pages/comm/menu.jsp" />
+ 
  
 </div>
 
@@ -108,10 +100,10 @@ var PDV_PAGENAME='html_equipment';
  	<li>
 	<div class="fang" style="width:160px;height:120px">
 		<div class="picFit" style="width:160px;height:120px">
-		<a href="${ctx}/pages/photo/photo.jsp?id=${item.key}" target="_self" ><img src="${ctx}/pages/base/images/factory/${item.value.img}" style="width:160px;height:120px" border="0" /></a>
+		<a href="${ctx}/pages/photo/photo.jsp?id=${item.key}&flag=${flag}" target="_self" ><img src="${ctx}/pages/base/images/factory/${item.value.img}" style="width:160px;height:120px" border="0" /></a>
 		</div>
 	</div>
-	<div class="title"><a href="${ctx}/pages/photo/photo.jsp?id=${item.key}" target="_self"   >${item.value.name }</a></div>
+	<div class="title"><a href="${ctx}/pages/photo/photo.jsp?id=${item.key}&flag=${flag}" target="_self"   >${item.value.name }</a></div>
 </li>
  </c:forEach>
 

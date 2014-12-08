@@ -88,7 +88,7 @@ var PDV_PAGENAME='link';
 <div class="class_en">
 
 
-<a href="../../product/class/?21.html" target="_self" class="class_en">Iron ore</a>
+<!-- <a href="../../product/class/?21.html" target="_self" class="class_en">Iron ore</a>
 
 
 <a href="../../product/class/?2.html" target="_self" class="class_en">Sulfur ore</a>
@@ -107,7 +107,7 @@ var PDV_PAGENAME='link';
 
 
 <a href="../../product/class/?1.html" target="_self" class="class_en">Other</a>
- 
+  -->
 </div>
 
 </div>

@@ -154,7 +154,7 @@ var projectPath = '${ctx}';
 <div style="margin:0px;padding:3px;">
 <link href="templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
   <div class="searchform_h">
-<form id="searchform" method="get" action="http://demo.8555.net/8127_6493/product/class/index.php">
+<form id="searchform" method="get" action="##">
  
  
    

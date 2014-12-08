@@ -1,5 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:set var="ss" value="factory"/>
+<c:if test="${param.flag eq 'cret'}">
+	<c:set var="factories" value="${crets}"/>
+	<c:set var="ss" value="cret"/>
+</c:if>
 <c:forEach items="${factories}" var="item" begin="0" >
 	<c:if test="${item.key eq param.id}">
 		<c:set var="prod" value="${item.value}"/>
@@ -71,7 +76,7 @@ var projectPath = '${ctx}';
 <div style="margin:0px;padding:5px;">
 <link href="templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
   <div class="searchform_h">
-<form id="searchform" method="get" action="http://demo.8555.net/8127_6493/photo/class/index.php">
+<form id="searchform" method="get" action="##">
  
 
   
@@ -136,7 +141,8 @@ var projectPath = '${ctx}';
 	<div class="title">${prod.name}</div>
 	<div id="memo" class="memo" style="display:block">${prod.description}</div>
 	<div class="bzone">
-	  <input type="hidden" id="photoid" value="${prod.id}"/> 
+	<input type="hidden" id="photoid" value="${prod.id}"/> 
+	<input type="hidden" id="phototype" value="${ss}"/> 
 	<div class="tags" style="display:none">Tag：</div>
 	<div id="banzhu" class="banzhu"></div>
 	</div>
@@ -170,10 +176,8 @@ var projectPath = '${ctx}';
 <div class="class_en">
 
 
-<a href="../class/index.html?2.html" target="_self" class="class_en">Equipment</a>
+<a href="${ctx}/pages/page/html/factory.jsp" target="_self" class="class_en">Factory</a>
 
-
-<a href="../class/index.html?3.html" target="_self" class="class_en">Certificate</a>
  
 </div>
 

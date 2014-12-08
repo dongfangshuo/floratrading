@@ -63,7 +63,7 @@ var PDV_PAGENAME='main';
 <div style="margin:0px;padding:5px;">
 <link href="../photo/templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
   <div class="searchform_h">
-<form id="searchform" method="get" action="../photo/class/index.php">
+<form id="searchform" method="get" action="##">
  
 
   

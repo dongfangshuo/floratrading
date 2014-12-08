@@ -106,13 +106,8 @@ var PDV_PAGENAME='query';
 <div class="class_en">
 
 
-<a href="../../news/class/?86.html" target="_self" class="class_en">News</a>
+<a href="${ctx}/pages/news/class/index.jsp" target="_self" class="class_en">News</a>
 
-
-<a href="../../news/class/?113.html" target="_self" class="class_en">Infomation</a>
-
-
-<a href="../../news/class/?114.html" target="_self" class="class_en">literature</a>
  
 </div>
 
@@ -137,7 +132,7 @@ var PDV_PAGENAME='query';
 <div style="margin:0px;padding:5px;">
 <link href="../../news/templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
  <div class="searchform_h">
- <form id="searchform" method="get" action="../../news/class/index.html">
+ <form id="searchform" method="get" action="#">
  
  
    

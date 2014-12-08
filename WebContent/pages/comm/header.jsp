@@ -135,7 +135,7 @@
 
 </li>
 
-<li><a href="${ctx}/pages/page/html/equipment.jsp">FACTORY</a>
+<li><a href="${ctx}/pages/page/html/factory.jsp">FACTORY</a>
 
 </li>
 

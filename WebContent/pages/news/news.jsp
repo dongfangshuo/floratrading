@@ -144,7 +144,7 @@ $().contentPages('410');
 <div style="margin:0px;padding:5px;">
 <link href="templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
  <div class="searchform_h">
- <form id="searchform" method="get" action="http://demo.8555.net/8127_6493/news/class/index.php">
+ <form id="searchform" method="get" action="##">
  
  
    

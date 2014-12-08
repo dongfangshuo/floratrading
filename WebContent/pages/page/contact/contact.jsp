@@ -64,20 +64,7 @@ var PDV_PAGENAME='contact_contact';
 <link href="${ctx}/pages/base/css/menu.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
-
-<a href="../../page/html/company.html" target="_self" class="class_en">About Us</a>
-
-
-<a href="../../page/html/culture.html" target="_self" class="class_en">Corporate Culture</a>
-
-
-<a href="../../page/html/equipment.html" target="_self" class="class_en">Equipment</a>
-
-
-<a href="../../page/html/cert.html" target="_self" class="class_en">Certificate</a>
-
-
-<a href="../../page/html/service.html" target="_self" class="class_en">Service</a>
+<jsp:include page="/pages/comm/menu.jsp" />
  
 </div>
 

@@ -29,6 +29,8 @@ public class PhotoGetterServlet extends HttpServlet {
 				result = DataStorage.getProds().get(id).getImg();
 			}else if(type.trim().equalsIgnoreCase("factory")){
 				result = DataStorage.getFactories().get(id).getImg();
+			}else if(type.trim().equalsIgnoreCase("cret")){
+				result = DataStorage.getCertificates().get(id).getImg();
 			}
 		}
 		PrintWriter out = rep.getWriter();

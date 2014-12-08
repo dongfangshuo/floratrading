@@ -65,19 +65,7 @@ var PDV_PAGENAME='html_culture';
 <div class="class_en">
 
 
-<a href="company.html" target="_self" class="class_en">About Us</a>
-
-
-<a href="culture.html" target="_self" class="class_en">Corporate Culture</a>
-
-
-<a href="equipment.html" target="_self" class="class_en">Equipment</a>
-
-
-<a href="cert.html" target="_self" class="class_en">Certificate</a>
-
-
-<a href="service.html" target="_self" class="class_en">Service</a>
+<jsp:include page="/pages/comm/menu.jsp" />
  
 </div>
 

@@ -110,25 +110,7 @@ $().picFit("exp");
 <div class="class_en">
 
 
-<a href="../../product/class/?21.html" target="_self" class="class_en">Iron ore</a>
-
-
-<a href="../../product/class/?2.html" target="_self" class="class_en">Sulfur ore</a>
-
-
-<a href="../../product/class/?3.html" target="_self" class="class_en">Phosphate rock</a>
-
-
-<a href="../../product/class/?4.html" target="_self" class="class_en">Manganese ore</a>
-
-
-<a href="../../product/class/?5.html" target="_self" class="class_en">Marble</a>
-
-
-<a href="../../product/class/?20.html" target="_self" class="class_en">Granite</a>
-
-
-<a href="../../product/class/?1.html" target="_self" class="class_en">Other</a>
+ <a href="${ctx}/pages/product/class/index.jsp" target="_self" class="class_en">Products</a>
  
 </div>
 
@@ -153,7 +135,7 @@ $().picFit("exp");
 <div style="margin:0px;padding:3px;">
 <link href="../../product/templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
   <div class="searchform_h">
-<form id="searchform" method="get" action="../../product/class/index.html">
+<form id="searchform" method="get" action="##">
  
  
    

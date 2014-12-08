@@ -90,7 +90,7 @@
 //读取详细内容
 
 (function($){
-	$.fn.getContent = function(photoid,photopageid){
+	$.fn.getContent = function(photoid,photopageid,productType){
 
 		$("#photoloading").show();
 		$("img#photopic").remove();
@@ -98,7 +98,7 @@
 		$.ajax({
 			type: "POST",
 			url:projectPath+"/getphoto",
-			data:  {type:'factory',id:photoid},
+			data:  {type:productType,id:photoid},
 			success: function(msg){
 				
 				  $("body").append("<img id='photopic' class='photopic' src='"+projectPath+"/pages/base/images/factory/"+msg+"'>");
@@ -146,8 +146,9 @@
 //初始化获取翻页和图片
 $(document).ready(function(){
 	var photoid=$("input#photoid")[0].value;
+	var productType=$("input#phototype")[0].value;
 	$().contentPages(photoid);
-	$().getContent(photoid,0);
+	$().getContent(photoid,0,productType);
 });
 
 
