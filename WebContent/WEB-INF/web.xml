@@ -24,6 +24,6 @@
   </servlet>
   <servlet-mapping>
   	<servlet-name>getPhoto</servlet-name>
-  	<url-pattern>/getphoto</url-pattern>
+  	<url-pattern>/getphoto.action</url-pattern>
   </servlet-mapping>
 </web-app>

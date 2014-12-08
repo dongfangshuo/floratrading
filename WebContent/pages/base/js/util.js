@@ -7,7 +7,7 @@
 		
 		$.ajax({
 			type: "POST",
-			url:projectPath+"/getphoto",
+			url:projectPath+"/getphoto.action",
 			data: "act=contentpages&productid="+productid,
 			success: function(msg){
 				$("div#contentpages").append("<ul>");
@@ -94,7 +94,7 @@
 		
 		$.ajax({
 			type: "POST",
-			url:projectPath+"/getphoto",
+			url:projectPath+"/getphoto.action",
 			data: {type:'prod',id:productid},
 			success: function(msg){
 				
