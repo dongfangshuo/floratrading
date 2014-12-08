@@ -63,11 +63,11 @@
 			<div id="s1_slides">
 				<div class="slides_container">
 
-					<a href='http://' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20120301/1330577342.jpg' width='1002' height='330' alt='' border='0'></a>
+					<a href='#' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20120301/1330577342.jpg' width='1002' height='330' alt='' border='0'></a>
 
-					<a href='http://' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20120301/1330577349.jpg' width='1002' height='330' alt='' border='0'></a>
+					<a href='#' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20120301/1330577349.jpg' width='1002' height='330' alt='' border='0'></a>
 
-					<a href='http://' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20121117/1353136076.jpg' width='1002' height='330' alt='' border='0'></a>
+					<a href='#' title='' target='_blank'><img src='${ctx}/pages/advs/pics/20121117/1353136076.jpg' width='1002' height='330' alt='' border='0'></a>
 
                 </div>
 				

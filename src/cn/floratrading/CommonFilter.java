@@ -10,6 +10,8 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
+import cn.floratrading.data.DataStorage;
+
 
 public class CommonFilter implements Filter {
 
@@ -23,8 +25,8 @@ public class CommonFilter implements Filter {
 			FilterChain arg2) throws IOException, ServletException {
 		HttpServletRequest req = (HttpServletRequest) arg0;
 		String path = req.getContextPath();
-		System.out.println(path);
 		req.setAttribute("ctx", path);
+		req.setAttribute("news", DataStorage.getNews());
 		arg2.doFilter(arg0, arg1);
 	}
 

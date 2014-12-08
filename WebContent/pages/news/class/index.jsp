@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<%@ page language="java" contentType="text/html; charset=UTF-8"   pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>   
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -12,7 +14,6 @@
 <script type="text/javascript" src="../../base/js/common.js"></script>
 <script type="text/javascript" src="../../base/js/form.js"></script>
 <script type="text/javascript" src="../../base/js/blockui.js"></script>
-<!-reload-!>
 </head>
 <body style='background:#dddddd url(../../effect/source/bg/bg.png) repeat-x scroll 0% 0%'>
 <script>
@@ -46,48 +47,12 @@ var PDV_PAGENAME='query';
 <link href="../../news/templates/css/newsquery.css" rel="stylesheet" type="text/css" />
 <div id="newsquery">
 <ul id="queryul">
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?416.html" target="_self"   >Challenges to Coal-based PVC in China</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?415.html" target="_self"   >A Chinese mold maker has been received SPE year award</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?414.html" target="_self"   >New Generation of Elantra from Beijing Hyundai</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?413.html" target="_self"   >China's Plastic Machinery Makers Head Abro</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?412.html" target="_self"   >Guangzhou International Mould&amp;Die Exhibition</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?411.html" target="_self"   >Reducing Energy Usage with Wire EDM</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
- 
-<li class="title">
-	<div class="title"><a href="../../news/html/?410.html" target="_self"   >How will this new invention get off the ground</a></div>
-	<div class="time">2012-11-14</div>
-
-</li>
+<c:forEach items="${news}" var="item" begin="0" >
+	<li class="title">
+		<div class="title"><a href="${ctx}/pages/news/news.jsp?id=${item.key}" target="_self"   >${item.value.title}</a></div>
+		<div class="time"><fmt:formatDate value="${item.value.pubdate}" pattern="yyyy-MM-dd hh:mm:ss" /></div>
+	</li>
+</c:forEach>
 
 </ul>
 </div>
