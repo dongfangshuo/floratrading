@@ -37,7 +37,7 @@
    <!-- <fileset dir="${webroot}/WEB-INF/lib">
      <include name="**/*.jar"/>
     </fileset> -->
-    <fileset dir="${tomcat_home}/lib">
+    <fileset dir="/${tomcat_home}/lib">
         <include name="**/*.jar"/>
        </fileset>
    </classpath>
