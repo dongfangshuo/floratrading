@@ -34,9 +34,9 @@
   <javac destdir="${webroot}/WEB-INF/classes" srcdir="${source}" debug="on" includeantruntime="on" deprecation="on" encoding="UTF-8" source="1.6" target="1.6">
   	<compilerarg value="-Xlint:unchecked"/>
    <classpath>
-    <fileset dir="${webroot}/WEB-INF/lib">
+   <!-- <fileset dir="${webroot}/WEB-INF/lib">
      <include name="**/*.jar"/>
-    </fileset>
+    </fileset> -->
     <fileset dir="${tomcat_home}/lib">
         <include name="**/*.jar"/>
        </fileset>
