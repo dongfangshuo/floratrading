@@ -42,7 +42,7 @@ var PDV_PAGENAME='index';
 		</div>
 	</div>
 <div style="padding:0px">
-<a href="page/company/" style="font:24px/32px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">COMPANY PROFILE</a>
+<span style="font:24px/32px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">COMPANY PROFILE</span>
 <div style="margin-top:10px;font:12px/20px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">
 Since its establishment, Beijing Flora Trading Co., Ltd. has been engaged in providing import & export as well as global sourcing service for worldwide customers. <br/>
 <strong>Import & Export Service:</strong> <br/>
