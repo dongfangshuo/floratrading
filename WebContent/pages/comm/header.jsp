@@ -5,7 +5,7 @@
 
 <!-- 网站标志 -->
 
-<div id='pdv_14446' class='pdv_class'  title='' style='width:312px;height:87px;top:48px;left:24px; z-index:2'>
+<div id='pdv_14446' class='pdv_class'  title='' style='width:312px;height:150px;top:25px;left:24px; z-index:2'>
 <div id='spdv_14446' class='pdv_top' style='overflow:hidden;width:100%;height:100%'>
 <div class="pdv_border" style="margin:0;padding:0;height:100%;border:0px  solid;background:;">
 	<div style="height:25px;margin:1px;display:none;background:;">
@@ -19,7 +19,7 @@
 <div style="padding:0px">
 
 
-<a href="#"><img src="${ctx}/pages/advs/pics/20121216/1355643068.png"border="0" /></a>
+<a href="${ctx}/pages/index.jsp"><img src="${ctx}/pages/base/images/logo.png"border="0" /></a>
 
 
 </div>
