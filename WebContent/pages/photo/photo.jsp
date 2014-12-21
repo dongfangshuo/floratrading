@@ -5,7 +5,7 @@
 	<c:set var="factories" value="${crets}"/>
 	<c:set var="ss" value="cret"/>
 </c:if>
-<c:forEach items="${factories}" var="item" begin="0" >
+<c:forEach items="${prods}" var="item" begin="0" >
 	<c:if test="${item.key eq param.id}">
 		<c:set var="prod" value="${item.value}"/>
 	</c:if>

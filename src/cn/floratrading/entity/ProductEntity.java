@@ -5,7 +5,20 @@ public class ProductEntity {
 	private String img;
 	private String name;
 	private String description;
+	private int type;
 	
+	public ProductEntity(int id, String img, String name, String description,
+			int type) {
+		super();
+		this.id = id;
+		this.img = img;
+		this.name = name;
+		this.description = description;
+		this.type = type;
+	}
+
+	
+
 	public ProductEntity(int id, String img, String name, String description) {
 		super();
 		this.id = id;
@@ -13,7 +26,9 @@ public class ProductEntity {
 		this.name = name;
 		this.description = description;
 	}
-	
+
+
+
 	public ProductEntity() {
 		super();
 	}
@@ -42,5 +57,14 @@ public class ProductEntity {
 	public void setDescription(String description) {
 		this.description = description;
 	}
+
+	public int getType() {
+		return type;
+	}
+
+	public void setType(int type) {
+		this.type = type;
+	}
+	
 	
 }

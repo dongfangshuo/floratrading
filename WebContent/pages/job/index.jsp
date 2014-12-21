@@ -120,7 +120,7 @@ var PDV_PAGENAME='main';
 
 
 <div id="showpages">
-	  <div id="pages"><ul><li class="pbutton"><a href=/8127_6493/job/index.html?page=1&amp;key=>首页</a></li><li class="pbutton">上一页</li><li class="pagesnow">1</li><li class="pbutton">下一页</li><li class="opt"><select onChange="window.location=this.options[this.selectedIndex].value"><option value="/8127_6493/job/index.html?page=1&amp;key=" selected>第1页</option></select></li><li class="pbutton"><a href=/8127_6493/job/index.html?page=1&amp;key=>尾页</a></li></ul></div>
+	 <!--  <div id="pages"><ul><li class="pbutton"><a href=/8127_6493/job/index.html?page=1&amp;key=>首页</a></li><li class="pbutton">上一页</li><li class="pagesnow">1</li><li class="pbutton">下一页</li><li class="opt"><select onChange="window.location=this.options[this.selectedIndex].value"><option value="/8127_6493/job/index.html?page=1&amp;key=" selected>第1页</option></select></li><li class="pbutton"><a href=/8127_6493/job/index.html?page=1&amp;key=>尾页</a></li></ul></div> -->
 </div>
 
 

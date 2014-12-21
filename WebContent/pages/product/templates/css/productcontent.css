@@ -1,4 +1,4 @@
-/* ============ÏêÇé============== */
+/* ============ï¿½ï¿½ï¿½ï¿½============== */
 
 div#productcontent{
 margin:0px;
@@ -14,8 +14,8 @@ height:310px;
 }
 
 div#productcontent .piczone{
-width:300px;
-height:300px;
+/* width:300px;
+height:300px; */
 text-align: center;
 padding:5px;
 border:1px #c0c0c0 solid;
@@ -128,7 +128,7 @@ cursor:pointer;
 }
 
 
-/* ============·­Ò³============== */
+/* ============ï¿½ï¿½Ò³============== */
 
 div#contentpages {
 margin:10px 0px 0px 0px;

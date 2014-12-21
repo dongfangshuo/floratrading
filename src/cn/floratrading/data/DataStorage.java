@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
+import cn.floratrading.comm.TypeEnum;
 import cn.floratrading.entity.DownLoadEntity;
 import cn.floratrading.entity.JobEntity;
 import cn.floratrading.entity.NewsEntity;
@@ -27,12 +28,29 @@ public final class DataStorage {
 	
 	public static Map<Integer,ProductEntity> getProds(){
 		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
-		ProductEntity prod1 = new ProductEntity(1,"1352882687.jpg","产品1","佳品");
-		ProductEntity prod2 = new ProductEntity(2,"1352882901.jpg","产品2","佳品");
-		ProductEntity prod3 = new ProductEntity(3,"1352882878.jpg","产品3","佳品");
-		ProductEntity prod4 = new ProductEntity(4,"1352882835.jpg","产品4","佳品");
-		ProductEntity prod5 = new ProductEntity(5,"1352882835.jpg","产品5","佳品");
-		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
+		ProductEntity prod1 = new ProductEntity(1,"baixiushi/2013481546370.jpg","产品1","佳品",TypeEnum.BAIXIUSHI.getType());
+		ProductEntity prod2 = new ProductEntity(2,"baixiushi/2013481548430.jpg","产品2","佳品",TypeEnum.BAIXIUSHI.getType());
+		ProductEntity prod3 = new ProductEntity(3,"gongchengban/2012102616900.jpg","产品3","佳品",TypeEnum.GONGCHENGBAN.getType());
+		ProductEntity prod4 = new ProductEntity(4,"gongchengban/20121026169330.jpg","产品4","佳品",TypeEnum.GONGCHENGBAN.getType());
+		ProductEntity prod5 = new ProductEntity(5,"guangban/201210251411300.jpg","产品5","佳品",TypeEnum.GUANGBAN.getType());
+		ProductEntity prod6 = new ProductEntity(6,"guangban/2013481648250.jpg","产品5","佳品",TypeEnum.GUANGBAN.getType());
+		ProductEntity prod7 = new ProductEntity(7,"huangxiushi/201210251419240.jpg","产品5","佳品",TypeEnum.HUANGXIUSHI.getType());
+		ProductEntity prod8 = new ProductEntity(8,"huangxiushi/201348161100.jpg","产品5","佳品",TypeEnum.HUANGXIUSHI.getType());
+		ProductEntity prod9 = new ProductEntity(9,"huoshaoban/20121025145430.jpg","产品5","佳品",TypeEnum.HUOSHAOBAN.getType());
+		ProductEntity prod10 = new ProductEntity(10,"huoshaoban/2012102514660.jpg","产品5","佳品",TypeEnum.HUOSHAOBAN.getType());
+		ProductEntity prod11 = new ProductEntity(11,"luyanshi/20121025141270.jpg","产品5","佳品",TypeEnum.LUYANSHI.getType());
+		ProductEntity prod12 = new ProductEntity(12,"luyanshi/20121025142200.jpg","产品5","佳品",TypeEnum.LUYANSHI.getType());
+		ProductEntity prod13 = new ProductEntity(13,"mogushi/201210251358430.jpg","产品5","佳品",TypeEnum.MOGUSHI.getType());
+		ProductEntity prod14 = new ProductEntity(14,"mogushi/201210251359200.jpg","产品5","佳品",TypeEnum.MOGUSHI.getType());
+		ProductEntity prod15 = new ProductEntity(15,"qiezimian/201348163680.jpg","产品5","佳品",TypeEnum.QIEZIMIAN.getType());
+		ProductEntity prod16 = new ProductEntity(16,"qiezimian/2013481637470.jpg","产品5","佳品",TypeEnum.QIEZIMIAN.getType());
+		ProductEntity prod17 = new ProductEntity(17,"tuliao/1.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod18 = new ProductEntity(18,"tuliao/2.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod19 = new ProductEntity(19,"tuliao/3.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod20 = new ProductEntity(20,"tuliao/4.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod21 = new ProductEntity(21,"yixingshi/201210251357180.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
+		ProductEntity prod22 = new ProductEntity(22,"yixingshi/20121025135870.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod15,prod16,prod17,prod18,prod19,prod20,prod21,prod22};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
 		}
@@ -41,12 +59,14 @@ public final class DataStorage {
 	
 	public static Map<Integer,ProductEntity> getFactories(){
 		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
-		ProductEntity prod1 = new ProductEntity(1,"1273467523.jpg","factory产品1","佳品");
-		ProductEntity prod2 = new ProductEntity(2,"1273467523.jpg","factory产品2","佳品");
-		ProductEntity prod3 = new ProductEntity(3,"1273467523.jpg","factory产品3","佳品");
-		ProductEntity prod4 = new ProductEntity(4,"1273467523.jpg","factory产品4","佳品");
-		ProductEntity prod5 = new ProductEntity(5,"1273467523.jpg","factory产品5","佳品");
-		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
+		ProductEntity prod1 = new ProductEntity(1,"kuangshiziyuan/201210251428140.jpg","factory产品1","佳品",TypeEnum.KUANGSHIZIYUAN.getType());
+		ProductEntity prod2 = new ProductEntity(2,"kuangshiziyuan/201312917610.jpg","factory产品2","佳品",TypeEnum.KUANGSHIZIYUAN.getType());
+		ProductEntity prod3 = new ProductEntity(3,"tuliaoshebei/IMG_0367.JPG","factory产品3","佳品",TypeEnum.TULIAOSHEBEI.getType());
+		ProductEntity prod4 = new ProductEntity(4,"tuliaoshebei/IMG_0368.JPG","factory产品4","佳品",TypeEnum.TULIAOSHEBEI.getType());
+		ProductEntity prod5 = new ProductEntity(5,"tuliaoshebei/IMG_0369.JPG","factory产品5","佳品",TypeEnum.TULIAOSHEBEI.getType());
+		ProductEntity prod6 = new ProductEntity(6,"tuliaoshebei/IMG_037020JPG","factory产品5","佳品",TypeEnum.TULIAOSHEBEI.getType());
+		ProductEntity prod7 = new ProductEntity(7,"tuliaoshebei/IMG_0371.JPG","factory产品5","佳品",TypeEnum.TULIAOSHEBEI.getType());
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
 		}
