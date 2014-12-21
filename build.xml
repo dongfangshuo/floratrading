@@ -8,7 +8,7 @@
  <property name="java.home" value="${SystemVariable.JAVA_HOME}"/>
  <property name="path" value="${SystemVariable.PATH}"/>
  <property name="classpath" value="${SystemVariable.CLASSPATH}"/>
- <property name="tomcat_home" value="/usr/local/apache-tomcat-7.0.53"/>
+ <property name="tomcat_home" value="/home/gao/softwares/tomcat/apache-tomcat-7.0.57"/>
 	
 	
  
