@@ -27,11 +27,11 @@ public final class DataStorage {
 	
 	public static Map<Integer,ProductEntity> getProds(){
 		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
-		ProductEntity prod1 = new ProductEntity(1,"1352882687.jpg","产品1","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod2 = new ProductEntity(2,"1352882901.jpg","产品2","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod3 = new ProductEntity(3,"1352882878.jpg","产品3","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod4 = new ProductEntity(4,"1352882835.jpg","产品4","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod5 = new ProductEntity(5,"1352882835.jpg","产品5","居家旅行，杀人越货必备之佳品");
+		ProductEntity prod1 = new ProductEntity(1,"1352882687.jpg","产品1","佳品");
+		ProductEntity prod2 = new ProductEntity(2,"1352882901.jpg","产品2","佳品");
+		ProductEntity prod3 = new ProductEntity(3,"1352882878.jpg","产品3","佳品");
+		ProductEntity prod4 = new ProductEntity(4,"1352882835.jpg","产品4","佳品");
+		ProductEntity prod5 = new ProductEntity(5,"1352882835.jpg","产品5","佳品");
 		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
@@ -41,11 +41,11 @@ public final class DataStorage {
 	
 	public static Map<Integer,ProductEntity> getFactories(){
 		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
-		ProductEntity prod1 = new ProductEntity(1,"1273467523.jpg","factory产品1","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod2 = new ProductEntity(2,"1273467523.jpg","factory产品2","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod3 = new ProductEntity(3,"1273467523.jpg","factory产品3","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod4 = new ProductEntity(4,"1273467523.jpg","factory产品4","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod5 = new ProductEntity(5,"1273467523.jpg","factory产品5","居家旅行，杀人越货必备之佳品");
+		ProductEntity prod1 = new ProductEntity(1,"1273467523.jpg","factory产品1","佳品");
+		ProductEntity prod2 = new ProductEntity(2,"1273467523.jpg","factory产品2","佳品");
+		ProductEntity prod3 = new ProductEntity(3,"1273467523.jpg","factory产品3","佳品");
+		ProductEntity prod4 = new ProductEntity(4,"1273467523.jpg","factory产品4","佳品");
+		ProductEntity prod5 = new ProductEntity(5,"1273467523.jpg","factory产品5","佳品");
 		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
@@ -55,11 +55,11 @@ public final class DataStorage {
 	
 	public static Map<Integer,ProductEntity> getCertificates(){
 		Map<Integer,ProductEntity>  map = new HashMap<Integer,ProductEntity>();
-		ProductEntity prod1 = new ProductEntity(1,"1330675354.gif","factory产品1","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod2 = new ProductEntity(2,"1330675354.gif","factory产品2","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod3 = new ProductEntity(3,"1330675354.gif","factory产品3","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod4 = new ProductEntity(4,"1330675354.gif","factory产品4","居家旅行，杀人越货必备之佳品");
-		ProductEntity prod5 = new ProductEntity(5,"1330675354.gif","factory产品5","居家旅行，杀人越货必备之佳品");
+		ProductEntity prod1 = new ProductEntity(1,"1330675354.gif","factory产品1","佳品");
+		ProductEntity prod2 = new ProductEntity(2,"1330675354.gif","factory产品2","佳品");
+		ProductEntity prod3 = new ProductEntity(3,"1330675354.gif","factory产品3","佳品");
+		ProductEntity prod4 = new ProductEntity(4,"1330675354.gif","factory产品4","佳品");
+		ProductEntity prod5 = new ProductEntity(5,"1330675354.gif","factory产品5","佳品");
 		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
