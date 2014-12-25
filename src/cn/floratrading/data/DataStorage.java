@@ -44,13 +44,15 @@ public final class DataStorage {
 		ProductEntity prod14 = new ProductEntity(14,"mogushi/201210251359200.jpg","产品5","佳品",TypeEnum.MOGUSHI.getType());
 		ProductEntity prod15 = new ProductEntity(15,"qiezimian/201348163680.jpg","产品5","佳品",TypeEnum.QIEZIMIAN.getType());
 		ProductEntity prod16 = new ProductEntity(16,"qiezimian/2013481637470.jpg","产品5","佳品",TypeEnum.QIEZIMIAN.getType());
-		ProductEntity prod17 = new ProductEntity(17,"tuliao/1.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
-		ProductEntity prod18 = new ProductEntity(18,"tuliao/2.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
-		ProductEntity prod19 = new ProductEntity(19,"tuliao/3.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
-		ProductEntity prod20 = new ProductEntity(20,"tuliao/4.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
-		ProductEntity prod21 = new ProductEntity(21,"yixingshi/201210251357180.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
-		ProductEntity prod22 = new ProductEntity(22,"yixingshi/20121025135870.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
-		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod15,prod16,prod17,prod18,prod19,prod20,prod21,prod22};
+		ProductEntity prod17 = new ProductEntity(17,"yixingshi/201210251357180.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
+		ProductEntity prod18 = new ProductEntity(18,"yixingshi/20121025135870.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
+		ProductEntity prod23 = new ProductEntity(23,"tuliao/1.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod20 = new ProductEntity(20,"tuliao/2.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod21 = new ProductEntity(21,"tuliao/3.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod22 = new ProductEntity(22,"tuliao/4.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		
+		
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod15,prod16,prod17,prod18,prod23,prod20,prod21,prod22};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
 		}
