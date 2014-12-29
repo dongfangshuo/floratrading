@@ -17,7 +17,7 @@
 	</div>
 <div style="padding:0px">
 <div style="width:100%;text-align:center;font:12px/20px Arial, Helvetica, sans-serif">
-<div style="TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #fff">Beijing Flora Trading Co., Ltd</div>
+<div style="TEXT-ALIGN: center; LINE-HEIGHT: 24px; MARGIN: 0px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; COLOR: #fff">Copyright © 2014-2018 Beijing Flora Trading Co., Ltd. All rights reserved</div>
 </div>
 
 </div>
