@@ -46,13 +46,15 @@ public final class DataStorage {
 		ProductEntity prod16 = new ProductEntity(16,"qiezimian/2013481637470.jpg","产品5","佳品",TypeEnum.QIEZIMIAN.getType());
 		ProductEntity prod17 = new ProductEntity(17,"yixingshi/201210251357180.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
 		ProductEntity prod18 = new ProductEntity(18,"yixingshi/20121025135870.jpg","产品5","佳品",TypeEnum.YIXINGSHI.getType());
-		ProductEntity prod23 = new ProductEntity(23,"tuliao/1.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		
 		ProductEntity prod20 = new ProductEntity(20,"tuliao/2.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
 		ProductEntity prod21 = new ProductEntity(21,"tuliao/3.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
 		ProductEntity prod22 = new ProductEntity(22,"tuliao/4.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod23 = new ProductEntity(23,"tuliao/1.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod24 = new ProductEntity(24,"tuliao/5.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
+		ProductEntity prod25 = new ProductEntity(25,"tuliao/6.jpg","产品5","佳品",TypeEnum.TULIAO.getType());
 		
-		
-		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod15,prod16,prod17,prod18,prod23,prod20,prod21,prod22};
+		ProductEntity[] prods = new ProductEntity[]{prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9,prod10,prod11,prod12,prod13,prod14,prod15,prod16,prod17,prod18,prod23,prod20,prod21,prod22,prod24,prod25};
 		for(ProductEntity n : prods){
 			map.put(n.getId(), n);
 		}
