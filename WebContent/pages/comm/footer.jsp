@@ -4,7 +4,7 @@
 
 <!-- 底部信息编辑区 -->
 
-<div id='pdv_10807' class='pdv_class'  title='脚注信息' style='width:380px;height:99px;top:53px;left:316px; z-index:1'>
+<div id='pdv_10807' class='pdv_class'  title='脚注信息' style='width:450px;height:99px;top:53px;left:275px; z-index:1'>
 <div id='spdv_10807' class='pdv_bottom' style='overflow:hidden;width:100%;height:100%'>
 <div class="pdv_border" style="margin:0;padding:0;height:100%;border:0px  solid;background:;">
 	<div style="height:25px;margin:1px;display:none;background:;">
