@@ -50,8 +50,8 @@
 			$('#s1_slides').slides({
 				preload: true,
 				preloadImage: '${ctx}/pages/base/images/s1-loading.gif',
-				play: 5000,
-				pause: 2500,
+				play: 3000,
+				pause: 1500,
 				hoverPause: true
 			});
 		});
