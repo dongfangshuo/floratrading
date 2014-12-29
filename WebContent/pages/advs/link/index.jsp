@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>友情链接-COMPANY HOMEPAGE</title>
+<title>Beijing Flora Trading Co., Ltd.</title>
 <meta content="友情链接" name="keywords" />
 <meta content="友情链接" name="description" />
 <link href="../../base/templates/css/common.css" rel="stylesheet" type="text/css" />

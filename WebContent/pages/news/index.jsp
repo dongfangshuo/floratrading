@@ -5,9 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>News-COMPANY HOMEPAGE</title>
-<meta content="" name="keywords" />
-<meta content="" name="description" />
+<title>Beijing Flora Trading Co., Ltd.</title>
+<meta content="paint, paint manufacturing equipment, building stones, building materials, oil field equipment," name="keywords" />
+<meta content="Flora Trading is committed to becoming the leading exporter of building paints, paint manufacturing equipment and building stones in China and providing high quality services for customers around the world. " name="description" />
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
 <link href="../base/templates/css/common.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="../base/js/base.js"></script>
 <script type="text/javascript" src="../base/js/common.js"></script>

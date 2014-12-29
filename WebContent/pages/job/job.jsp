@@ -11,7 +11,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>Electronics Engineers-COMPANY HOMEPAGE</title>
+<title>Beijing Flora Trading Co., Ltd.</title>
 <meta content="0" name="keywords" />
 <meta content="0" name="description" />
 <link href="${ctx}/pages/base/templates/css/common.css" rel="stylesheet" type="text/css" />
