@@ -70,7 +70,7 @@ var PDV_PAGENAME='detail';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.php?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE4MDE0NzIyfDNiYzM4NTZlY2YyMmZmOWFmZmYxZTE5NDQ2NWQzZjBkfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/prod.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

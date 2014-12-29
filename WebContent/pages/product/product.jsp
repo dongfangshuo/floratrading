@@ -127,7 +127,7 @@ var projectPath = '${ctx}';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.php?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE4MDE0NzE4fDczMjVjOWQ0Mjk0ZTJiMWQ4YzhhOGM3NjY3MTlmZjkwfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/prod.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 

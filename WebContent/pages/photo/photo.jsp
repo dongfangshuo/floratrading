@@ -70,7 +70,7 @@ var projectPath = '${ctx}';
 <div style="float:left;font:14px/41px Verdana,microsoft yahei,Arial;padding-left:20px;color:#fff;">
 	Photo Search
 	</div>
-		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="http://demo.8555.net/8127_6493/photo/html/-1" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
+		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="##" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
 </div>
 
 <div style="margin:0px;padding:5px;">
@@ -106,7 +106,7 @@ var projectPath = '${ctx}';
 		
 		</div>
 		<div style="float:right;margin-right:10px;display:none">
-		<a href="http://demo.8555.net/8127_6493/photo/html/-1" style="line-height:25px;color:">更多</a>
+		<a href="##" style="line-height:25px;color:">更多</a>
 		</div>
 	</div>
 <div style="padding:0px">
@@ -167,12 +167,12 @@ var projectPath = '${ctx}';
 <div style="float:left;font:14px/41px Verdana,microsoft yahei,Arial;padding-left:20px;color:#fff;">
 	Photo
 	</div>
-		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="http://demo.8555.net/8127_6493/photo/html/-1" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
+		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="##" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
 </div>
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.php?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE4MDE0NzE0fGIzZjFlYjMwMWNiODNkZWE4MWZjY2JjOGY2MTY4NTFhfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/prod.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 
@@ -197,7 +197,7 @@ var projectPath = '${ctx}';
 		
 		</div>
 		<div style="float:right;margin-right:10px;display:none">
-		<a href="http://demo.8555.net/8127_6493/photo/html/-1" style="line-height:25px;color:">更多</a>
+		<a href="##" style="line-height:25px;color:">更多</a>
 		</div>
 	</div>
 <div style="padding:0px">

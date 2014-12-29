@@ -66,13 +66,13 @@ var PDV_PAGENAME='detail';
 <div style="float:left;font:14px/41px Verdana,microsoft yahei,Arial;padding-left:20px;color:#fff;">
 	Search
 	</div>
-		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="http://demo.8555.net/8127_6493/down/html/-1" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
+		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="##" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
 </div>
 
 <div style="margin:0px;padding:5px;">
 <link href="templates/css/searchform_h.css" rel="stylesheet" type="text/css" />
 <div class="searchform_h">
-<form id="searchform" method="get" action="http://demo.8555.net/8127_6493/down/class/index.php">
+<form id="searchform" method="get" action="##">
  
   
   
@@ -99,12 +99,12 @@ var PDV_PAGENAME='detail';
 <div style="float:left;font:14px/41px Verdana,microsoft yahei,Arial;padding-left:20px;color:#fff;">
 	Category
 	</div>
-		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="http://demo.8555.net/8127_6493/down/html/-1" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
+		<div style="float:right;width:60px;height:41px;margin-right:5px"><a href="##" style="display:none;font:10px/41px Verdana,microsoft yahei,Arial;color:#fff;">MORE &gt;&gt;</a></div>
 </div>
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.php?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE4MDE0NzI1fGZhZjY1YzY0MTg1NjIxY2U4ZDUxMzY3YjA3MDJlYmMxfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/prod.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 <!-- 
 
@@ -131,14 +131,12 @@ var PDV_PAGENAME='detail';
 		
 		</div>
 		<div style="float:right;margin-right:10px;display:none">
-		<a href="http://demo.8555.net/8127_6493/down/html/-1" style="line-height:25px;color:">更多</a>
+		<a href="##" style="line-height:25px;color:">更多</a>
 		</div>
 	</div>
 <div style="padding:0px">
 
 <link href="templates/css/downcontent.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://api.8555.net/script.php?YWFhYWF8ODEyN3xkb3duY29udGVudHwxNDE4MDE0NzI1fGZhZjY1YzY0MTg1NjIxY2U4ZDUxMzY3YjA3MDJlYmMxfA=="></script>
-
 <div id="downcontent">
 <div class="down" id="downlink">
 <a href="${prod.url}"><img src="templates/images/download.gif" width="100" height="100" border="0"></img></a>
@@ -156,13 +154,6 @@ var PDV_PAGENAME='detail';
 </div>
 
 <div id="memo" class="memo">Summary: ${prod.summary}</div>
-<div id="con" class="con"></div>
-	<div id="contentpages">ss</div>
-	<div class="bzone">
-	  <input type="hidden" id="downid" value="5"> 
-	<div class="tags" style="display:none">Tag:</div>
-	<div id="banzhu" class="banzhu"></div>
-	</div>
 </div>
 <script>
 $(function(){

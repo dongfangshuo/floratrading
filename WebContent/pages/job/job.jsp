@@ -125,23 +125,13 @@ var PDV_PAGENAME='detail';
 
 <div style="margin:0px;padding:0px;">
 
-<link href="http://api.8555.net/css.php?YWFhYWF8ODEyN3xjbGFzc19lbnwxNDE4MDE0NzI0fDQzOTM4NzAwZDQ5ZDY4NTIzYjQwZDM4NjBiODBkMGVlfA==" rel="stylesheet" type="text/css" />
+<link href="${ctx}/pages/base/css/prod.css" rel="stylesheet" type="text/css" />
 <div class="class_en">
 
 
-<a href="${ctx}/pages/page/html/company.php" target="_self" class="class_en">About Us</a>
-
-
-<a href="${ctx}/pages/page/html/culture.php" target="_self" class="class_en">Corporate Culture</a>
-
-
-<a href="${ctx}/pages/page/html/equipment.php" target="_self" class="class_en">Equipment</a>
-
-
-<a href="${ctx}/pages/page/html/cert.php" target="_self" class="class_en">Certificate</a>
-
-
-<a href="${ctx}/pages/page/html/service.php" target="_self" class="class_en">Service</a>
+<jsp:include page="/pages/comm/menu.jsp" />
+ 
+ 
  
 </div>
 
