@@ -48,8 +48,8 @@
 	<script>
 		$(function(){
 			$('#s1_slides').slides({
-				preload: true,
-				preloadImage: '${ctx}/pages/base/images/s1-loading.gif',
+				//preload: true,
+				//preloadImage: '${ctx}/pages/base/images/s1-loading.gif',
 				play: 3000,
 				pause: 1500,
 				hoverPause: true
