@@ -66,9 +66,17 @@ var PDV_PAGENAME='html_company';
 <div id='pagecontent' class='page_content'>
 <p>
 <img style="PADDING-RIGHT: 15px; FLOAT: left" border=0 alt="" src="../pics/20121216/201212161355651563686.jpg" />
-HangZhou Some Electronics Co., Ltd. specializes in R&amp;D, production and sales of precision connectors. Its products are used in computers, telecom network equipments, industrial apparatuses, ect. The Company is armed with advanced precision mold manufacturing equipment, high-speed hardware pressing equipment, precision plastic injection equipment, automatic assembly line and inspection/testing devices.The company adheres to the business principle of "technology for development and quality for existence", and provides customers with quality products and considerate service based on its years of experience in R&amp;D, procuction and management, great technical strength and the mature quality management system.</p>
-<p>HangZhou Some Electronics Co., Ltd. specializes in R&amp;D, production and sales of precision connectors. Its products are used in computers, telecom network equipments, industrial apparatuses, ect. The Company is armed with advanced precision mold manufacturing equipment, high-speed hardware pressing equipment, precision plastic injection equipment, automatic assembly line and inspection/testing devices.The company adheres to the business principle of "technology for development and quality for existence", and provides customers with quality products and considerate service based on its years of experience in R&amp;D, procuction and management, great technical strength and the mature quality management system.<br /><br />
+Since its establishment, Beijing Flora Trading Co., Ltd. has been engaged in providing import & export as well as global sourcing service for worldwide customers. 
 </p>
+<p>
+Import & Export Service: <br/>
+With its integrated logistics chain, Flora Trading can offer customers with tailor-made import and export service. It imports kinds of commodities globally for Chinese customers and now the imports mainly include plants, automobile and auto parts, steel pipes and rubber. It exports building paint, integrated paint manufacturing equipment, building stones, oil well equipment, automatic welding machinery and clothes. The service region covers Netherlands, Germany, the USA, South Korea, South America, Indonesia, Thailand, Iran and Syria. 
+</p>
+<p>
+Sourcing Service： <br/>
+Flora Trading provides sourcing service for customers worldwide. It helps in giving access to best quality resources available locally and provides cheaper, easier and safer service. Its reliable network reaches out to the best suppliers in China and the in-house team will use their experience and expertise to ensure that you make the use of purchasing from China opportunities, mitigate associated risks, minimize expenses and secure transactions for a reliable supply chain in China.
+</p>
+<br/>
 </div>
 <script>
 

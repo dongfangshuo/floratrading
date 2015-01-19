@@ -47,7 +47,11 @@ var PDV_PAGENAME='index';
 <div style="margin-top:10px;font:12px/20px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">
 Since its establishment, Beijing Flora Trading Co., Ltd. has been engaged in providing import & export as well as global sourcing service for worldwide customers. <br/>
 <strong>Import & Export Service:</strong> <br/>
-With its integrated logistics chain, Flora Trading can offer customers with tailor-made import and export service. It imports kinds of commodities globally for Chinese customers and now the imports mainly include plants, automobile and auto parts, steel pipes and rubber. It exports building paint, integrated paint manufacturing equipment, building stones, oil well equipment, automatic welding machinery and clothes. The service region covers Netherlands, Germany, the USA, South Korea, South America, Indonesia, Thailand, Iran and Syria. 
+With its integrated logistics chain, Flora Trading can offer customers with tailor-made import and export service. 
+It imports kinds of commodities globally for Chinese customers and now the imports mainly include plants, 
+automobile and auto parts, steel pipes and rubber. It exports building paint, integrated paint manufacturing equipment,
+ building stones, oil well equipment, automatic welding machinery and clothes. The service region covers Netherlands,
+  Germany, the USA, South Korea, South America, Indonesia, Thailand, Iran and Syria. 
 <br/> <strong>Sourcing Service：</strong> <br/>
 Flora Trading provides sourcing service for customers worldwide. It helps in giving access to best quality resources available locally and provides cheaper, easier and safer service.  
 Its reliable network reaches out to the best suppliers in China and the in-house team will use their experience and expertise to ensure that you make the best 
@@ -133,11 +137,9 @@ $().picFit("fill");
 <div style="margin-top:10px;font:12px/20px 'Microsoft YaHei',SimSun,Arial,Sans-Serif;color:#4f523c">
  use of purchasing from China opportunities, mitigate associated risks, minimize expenses and secure transactions for a reliable supply chain in China.<br />
 <strong>Purchasing from China – How Flora Trading Help</strong>
-<ul>
-<li></>It find reliable Chinese manufacturers</li>
-<li>It provide management of the end-to-end manufacturing and sourcing processes</li>
-<li>It deliver quality inspection services and a complete logistics solution</li>
-</ul>
+<br/></>It find reliable Chinese manufacturers<br/>
+It provide management of the end-to-end manufacturing and sourcing processes<br/>
+It deliver quality inspection services and a complete logistics solution<br/>
 Thus these service providers help bottom-line growth for your business with flexible and tailored solutions. China has offered favorable business opportunities for companies across the world with an unbeatable growth potential and as a low cost source of high quality products and services. 
 </div>
 </div>
