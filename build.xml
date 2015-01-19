@@ -28,7 +28,7 @@
   <echo message="PATH=${path}"/>
   <echo message="CLASSPATH=${classpath}"/>
    <echo message="tomcat_home=${tomcat_home}"/>
-  <javac destdir="${webroot}/WEB-INF/classes" srcdir="${source}" debug="on" includeantruntime="on" deprecation="on" encoding="UTF-8" source="1.6" target="1.6">
+  <javac destdir="${webroot}/WEB-INF/classes" srcdir="${source}" debug="on" includeantruntime="on" deprecation="on" encoding="UTF-8" source="1.7" target="1.7">
   	<compilerarg value="-Xlint:unchecked"/>
    <classpath>
    <!-- <fileset dir="${webroot}/WEB-INF/lib">
